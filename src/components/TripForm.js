@@ -1,10 +1,11 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import '../PlanTrips.css'; 
 import { FaPaperPlane,FaArrowCircleRight } from 'react-icons/fa';
 
 const TripForm = ({ onSubmit }) => {
   const droppableElements = useRef([]);
   const draggableElements = useRef([]);
+  const [numberOfDays,setNumberOfDays] = useState(0);
 
   useEffect(() => {
     const draggableItems = draggableElements.current.slice();
@@ -61,7 +62,7 @@ const TripForm = ({ onSubmit }) => {
     e.preventDefault();
     const startLocation = droppableElements.current[0].value;
     const endLocation = droppableElements.current[1].value;
-    onSubmit(startLocation, endLocation);
+    onSubmit(startLocation, endLocation,numberOfDays);
   };
 
   return (
@@ -92,6 +93,7 @@ const TripForm = ({ onSubmit }) => {
             name="num-days"
             placeholder="Number of Days"
             className="drag-input"
+            onChange={(e)=>{setNumberOfDays(e.target.value)}}
           />
           <button type="submit" className="submit-button"><FaPaperPlane size={25} style={{color: "#a0e2e1"}}/></button>
         </form>
