@@ -75,8 +75,8 @@ const TripForm = ({ onSubmit }) => {
       return;
     }
     onSubmit(
-      capitalizeFirstLetter(startLocation),
-      capitalizeFirstLetter(endLocation),
+      capitalizeFirstLetter(startLocation.trim()),
+      capitalizeFirstLetter(endLocation.trim()),
       numberOfDays
     );
   };
