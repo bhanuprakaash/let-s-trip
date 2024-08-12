@@ -1,37 +1,33 @@
-/* BudgetEstimator.css */
-
-/* Media query for screens smaller than 520px */
 @media (max-width: 520px) {
     .features10 .container {
-      padding: 0 15px; /* Adjust container padding */
+      padding: 0 15px; 
     }
   
     .features10 .item-wrapper {
-      padding: 10px; /* Reduce padding for item wrapper */
-    }
+      padding: 10px; 
   
     .features10 .top-line {
-      flex-direction: column; /* Stack top-line items vertically */
-      text-align: center; /* Center-align text */
+      flex-direction: column; 
+      text-align: center; 
     }
   
     .features10 .card-title {
-      font-size: 1.2rem; /* Adjust font size for titles */
+      font-size: 1.2rem;
     }
   
     .features10 .price {
-      font-size: 1rem; /* Adjust font size for price */
+      font-size: 1rem; 
     }
   
     .features10 .mbr-text {
-      font-size: 0.9rem; /* Adjust font size for additional text */
+      font-size: 0.9rem; 
     }
   
     .features10 .item {
-      margin-bottom: 20px; /* Adjust margin-bottom for each item */
+      margin-bottom: 20px; 
     }
     .bottom-line{
         text-align: center;
     }
   }
-  
+}
