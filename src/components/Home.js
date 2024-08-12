@@ -5,16 +5,16 @@ import TopDestinations from "./TopDestinations";
 import HowToStart from "./HowToStart";
 import Address from "./Address";
 
-const Home = () =>{
-    return(
-        <>
-            <Hero/>
-            <Features/>
-            <TopDestinations/>
-            <HowToStart/>
-            <Address/>
-        </>
-    )
-}
+const Home = () => {
+  return (
+    <>
+      <Hero />
+      <Features />
+      <TopDestinations />
+      <HowToStart />
+      <Address />
+    </>
+  );
+};
 
 export default Home;

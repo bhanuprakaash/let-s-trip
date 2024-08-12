@@ -5322,23 +5322,24 @@
         "name": "Hotel Grand Dragon",
         "location": "Ladakh",
         "type": "4-Star",
-        "pricePerNight": "₹10000",
+        "pricePerNight": 10000,
         "description": "Comfortable hotel with modern amenities and stunning views of the surrounding mountains."
     },
     {
         "name": "The Grand Delhi",
         "location": "Delhi",
         "type": "5-Star",
-        "pricePerNight": "₹15000",
+        "pricePerNight": 15000,
         "description": "Luxurious hotel located in the heart of Delhi, offering premium services and a range of dining options."
     },
     {
         "name": "Delhi Inn",
         "location": "Delhi",
         "type": "3-Star",
-        "pricePerNight": "₹6000",
+        "pricePerNight": 6000,
         "description": "Affordable hotel with clean rooms and basic amenities, ideal for budget travelers."
     }
+    
 ],
     "buses":[
         {
@@ -6613,5 +6614,334 @@
             "price": "₹2900",
             "busType": "Luxury"
         }
-    ]      
+    ],
+    "top_places":{
+        "categories": [
+          {
+            "category": "Historical and Cultural Cities",
+            "destinations": [
+              {
+                "name": "Agra",
+                "places_to_visit": [
+                  "Taj Mahal",
+                  "Agra Fort",
+                  "Fatehpur Sikri",
+                  "Mehtab Bagh",
+                  "Itmad-ud-Daula",
+                  "Akbar's Tomb",
+                  "Jama Masjid",
+                  "Moti Masjid",
+                  "Chini Ka Rauza",
+                  "Tomb of Mariam-uz-Zamani"
+                ]
+              },
+              {
+                "name": "Jaipur",
+                "places_to_visit": [
+                  "Amber Fort",
+                  "City Palace",
+                  "Hawa Mahal",
+                  "Jantar Mantar",
+                  "Jal Mahal",
+                  "Nahargarh Fort",
+                  "Albert Hall Museum",
+                  "Jaigarh Fort",
+                  "Birla Mandir",
+                  "Galtaji Temple"
+                ]
+              },
+              {
+                "name": "Delhi",
+                "places_to_visit": [
+                  "Red Fort",
+                  "Qutub Minar",
+                  "India Gate",
+                  "Lotus Temple",
+                  "Humayun's Tomb",
+                  "Jama Masjid",
+                  "Rashtrapati Bhavan",
+                  "Lodhi Gardens",
+                  "Raj Ghat",
+                  "Akshardham Temple"
+                ]
+              },
+              {
+                "name": "Varanasi",
+                "places_to_visit": [
+                  "Kashi Vishwanath Temple",
+                  "Dashashwamedh Ghat",
+                  "Sarnath",
+                  "Manikarnika Ghat",
+                  "Assi Ghat",
+                  "Tulsi Manas Temple",
+                  "Bharat Mata Temple",
+                  "Ramnagar Fort",
+                  "Durga Temple",
+                  "Banaras Hindu University"
+                ]
+              },
+              {
+                "name": "Udaipur",
+                "places_to_visit": [
+                  "City Palace",
+                  "Lake Pichola",
+                  "Jag Mandir",
+                  "Saheliyon Ki Bari",
+                  "Fateh Sagar Lake",
+                  "Bagore Ki Haveli",
+                  "Jagdish Temple",
+                  "Monsoon Palace",
+                  "Shilpgram",
+                  "Sajjangarh Biological Park"
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Metropolitan and Urban Centers",
+            "destinations": [
+              {
+                "name": "Mumbai",
+                "places_to_visit": [
+                  "Gateway of India",
+                  "Marine Drive",
+                  "Chhatrapati Shivaji Terminus",
+                  "Elephanta Caves",
+                  "Haji Ali Dargah",
+                  "Siddhivinayak Temple",
+                  "Juhu Beach",
+                  "Colaba Causeway",
+                  "Bandra-Worli Sea Link",
+                  "Chor Bazaar"
+                ]
+              },
+              {
+                "name": "Bangalore",
+                "places_to_visit": [
+                  "Lalbagh Botanical Garden",
+                  "Bangalore Palace",
+                  "Cubbon Park",
+                  "ISKCON Temple",
+                  "Vidhana Soudha",
+                  "Tipu Sultan's Summer Palace",
+                  "Ulsoor Lake",
+                  "Commercial Street",
+                  "M.G. Road",
+                  "Bannerghatta National Park"
+                ]
+              },
+              {
+                "name": "Chennai",
+                "places_to_visit": [
+                  "Marina Beach",
+                  "Fort St. George",
+                  "Kapaleeshwarar Temple",
+                  "San Thome Basilica",
+                  "Government Museum",
+                  "Elliot's Beach",
+                  "Arignar Anna Zoological Park",
+                  "Valluvar Kottam",
+                  "Birla Planetarium",
+                  "MGR Memorial"
+                ]
+              },
+              {
+                "name": "Kolkata",
+                "places_to_visit": [
+                  "Victoria Memorial",
+                  "Howrah Bridge",
+                  "Indian Museum",
+                  "Dakshineswar Kali Temple",
+                  "Belur Math",
+                  "Birla Planetarium",
+                  "Marble Palace",
+                  "St. Paul's Cathedral",
+                  "Mother House",
+                  "Science City"
+                ]
+              },
+              {
+                "name": "Hyderabad",
+                "places_to_visit": [
+                  "Charminar",
+                  "Golconda Fort",
+                  "Ramoji Film City",
+                  "Hussain Sagar Lake",
+                  "Salar Jung Museum",
+                  "Chowmahalla Palace",
+                  "Birla Mandir",
+                  "Nehru Zoological Park",
+                  "Lumbini Park",
+                  "Shilparamam"
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Nature and Scenic Beauty",
+            "destinations": [
+              {
+                "name": "Shimla",
+                "places_to_visit": [
+                  "The Ridge",
+                  "Mall Road",
+                  "Jakhoo Temple",
+                  "Christ Church",
+                  "Kufri",
+                  "Chadwick Falls",
+                  "Summer Hill",
+                  "Annandale",
+                  "Tara Devi Temple",
+                  "Scandal Point"
+                ]
+              },
+              {
+                "name": "Manali",
+                "places_to_visit": [
+                  "Rohtang Pass",
+                  "Solang Valley",
+                  "Hadimba Temple",
+                  "Manu Temple",
+                  "Vashisht Hot Water Springs",
+                  "Old Manali",
+                  "Jogini Waterfall",
+                  "Tibetan Monastery",
+                  "Nehru Kund",
+                  "Great Himalayan National Park"
+                ]
+              },
+              {
+                "name": "Kerala",
+                "places_to_visit": [
+                  "Alleppey Backwaters",
+                  "Munnar Tea Gardens",
+                  "Thekkady Wildlife Sanctuary",
+                  "Kochi Fort",
+                  "Athirappilly Waterfalls",
+                  "Varkala Beach",
+                  "Kumarakom Bird Sanctuary",
+                  "Wayanad",
+                  "Periyar Lake",
+                  "Bekal Fort"
+                ]
+              },
+              {
+                "name": "Leh",
+                "places_to_visit": [
+                  "Pangong Lake",
+                  "Thiksey Monastery",
+                  "Shanti Stupa",
+                  "Leh Palace",
+                  "Hemis Monastery",
+                  "Magnetic Hill",
+                  "Nubra Valley",
+                  "Hall of Fame Museum",
+                  "Spituk Monastery",
+                  "Khardung La Pass"
+                ]
+              },
+              {
+                "name": "Ladakh",
+                "places_to_visit": [
+                  "Nubra Valley",
+                  "Magnetic Hill",
+                  "Zanskar Valley",
+                  "Diskit Monastery",
+                  "Lamayuru Monastery",
+                  "Hemis Monastery",
+                  "Spituk Monastery",
+                  "Changla Pass",
+                  "Tso Moriri Lake",
+                  "Stok Palace"
+                ]
+              },
+              {
+                "name": "Coorg",
+                "places_to_visit": [
+                  "Abbey Falls",
+                  "Nagarhole National Park",
+                  "Raja's Seat",
+                  "Dubare Elephant Camp",
+                  "Talakaveri",
+                  "Golden Temple (Namdroling Monastery)",
+                  "Iruppu Falls",
+                  "Madikeri Fort",
+                  "Chelavara Falls",
+                  "Omkareshwara Temple"
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Beach Destinations",
+            "destinations": [
+              {
+                "name": "Goa",
+                "places_to_visit": [
+                  "Baga Beach",
+                  "Fort Aguada",
+                  "Basilica of Bom Jesus",
+                  "Dudhsagar Falls",
+                  "Anjuna Beach",
+                  "Chapora Fort",
+                  "Calangute Beach",
+                  "Se Cathedral",
+                  "Candolim Beach",
+                  "Arambol Beach"
+                ]
+              }
+            ]
+          },
+          {
+            "category": "Religious and Spiritual Centers",
+            "destinations": [
+              {
+                "name": "Varanasi",
+                "places_to_visit": [
+                  "Kashi Vishwanath Temple",
+                  "Dashashwamedh Ghat",
+                  "Sarnath",
+                  "Manikarnika Ghat",
+                  "Assi Ghat",
+                  "Tulsi Manas Temple",
+                  "Bharat Mata Temple",
+                  "Ramnagar Fort",
+                  "Durga Temple",
+                  "Banaras Hindu University"
+                ]
+              },
+              {
+                "name": "Leh",
+                "places_to_visit": [
+                  "Thiksey Monastery",
+                  "Shanti Stupa",
+                  "Leh Palace",
+                  "Hemis Monastery",
+                  "Spituk Monastery",
+                  "Stok Palace",
+                  "Phyang Monastery",
+                  "Shey Monastery",
+                  "Namgyal Tsemo Monastery",
+                  "Matho Monastery"
+                ]
+              },
+              {
+                "name": "Ladakh",
+                "places_to_visit": [
+                  "Diskit Monastery",
+                  "Lamayuru Monastery",
+                  "Hemis Monastery",
+                  "Spituk Monastery",
+                  "Alchi Monastery",
+                  "Phyang Monastery",
+                  "Likir Monastery",
+                  "Rizong Monastery",
+                  "Stok Monastery",
+                  "Thiksey Monastery"
+                ]
+              }
+            ]
+          }
+        ]
+      }      
 }

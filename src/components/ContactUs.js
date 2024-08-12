@@ -1,15 +1,15 @@
-import React, { useState } from 'react';
+import React, { useState } from "react";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
-    name: '',
-    email: '',
-    phone: '',
-    message: '',
+    name: "",
+    email: "",
+    phone: "",
+    message: "",
   });
-  
+
   const [formStatus, setFormStatus] = useState(null);
-  
+
   const handleChange = (e) => {
     const { name, value } = e.target;
     setFormData({ ...formData, [name]: value });
@@ -18,12 +18,16 @@ const ContactUs = () => {
   const handleSubmit = async (e) => {
     e.preventDefault();
     console.log(formData);
-    setFormData({name:'',message:'',email:'',phone:''})
-    setFormStatus('success');
+    setFormData({ name: "", message: "", email: "", phone: "" });
+    setFormStatus("success");
   };
 
   return (
-    <section data-bs-version="5.1" className="form03 cid-ukLeua66hL" id="form03-2n">
+    <section
+      data-bs-version="5.1"
+      className="form03 cid-ukLeua66hL"
+      id="form03-2n"
+    >
       <div className="container">
         <div className="row justify-content-center">
           <div className="col-12 col-lg item-wrapper">
@@ -33,12 +37,32 @@ const ContactUs = () => {
               </h3>
             </div>
             <div className="col-lg-12 mx-auto mbr-form">
-              <form onSubmit={handleSubmit} className="mbr-form form-with-styler" data-form-title="Form Name">
-                <input type="hidden" name="email" data-form-email="true" value="tO8icG7mEid6C2p/PcS9dd+FRzoFUe+HZ3u39TXqXCIy9FwI8snCqY8NKSLn9oVniieO4ODr478klTX7A1iGOwdhu21VdfKIQHacSTSNUol0NHqtB87qdVY7JJziQ9IC" />
-                {formStatus === 'success' && <div className="alert alert-success col-12">Thanks for filling out the form!</div>}
-                {formStatus === 'error' && <div className="alert alert-danger col-12">Oops...! some problem!</div>}
+              <form
+                onSubmit={handleSubmit}
+                className="mbr-form form-with-styler"
+                data-form-title="Form Name"
+              >
+                <input
+                  type="hidden"
+                  name="email"
+                  data-form-email="true"
+                  value="tO8icG7mEid6C2p/PcS9dd+FRzoFUe+HZ3u39TXqXCIy9FwI8snCqY8NKSLn9oVniieO4ODr478klTX7A1iGOwdhu21VdfKIQHacSTSNUol0NHqtB87qdVY7JJziQ9IC"
+                />
+                {formStatus === "success" && (
+                  <div className="alert alert-success col-12">
+                    Thanks for filling out the form!
+                  </div>
+                )}
+                {formStatus === "error" && (
+                  <div className="alert alert-danger col-12">
+                    Oops...! some problem!
+                  </div>
+                )}
                 <div className="dragArea row">
-                  <div className="col-md col-sm-12 form-group mb-3" data-for="name">
+                  <div
+                    className="col-md col-sm-12 form-group mb-3"
+                    data-for="name"
+                  >
                     <input
                       type="text"
                       name="name"
@@ -50,7 +74,10 @@ const ContactUs = () => {
                       id="name-form03-2n"
                     />
                   </div>
-                  <div className="col-md col-sm-12 form-group mb-3" data-for="email">
+                  <div
+                    className="col-md col-sm-12 form-group mb-3"
+                    data-for="email"
+                  >
                     <input
                       type="email"
                       name="email"
@@ -96,7 +123,11 @@ const ContactUs = () => {
           </div>
           <div className="col-12 col-lg-6">
             <div className="image-wrapper">
-              <img className="w-100" src="assets/images/contact-us-concept-landing-page-1256x1256.png" alt="Contact Us" />
+              <img
+                className="w-100"
+                src="assets/images/contact-us-concept-landing-page-1256x1256.png"
+                alt="Contact Us"
+              />
             </div>
           </div>
         </div>
