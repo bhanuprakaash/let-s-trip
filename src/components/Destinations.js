@@ -1,4 +1,4 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { Link } from "react-router-dom";
 
 const destinations = [
@@ -109,6 +109,11 @@ const destinations = [
 ];
 
 const Destinations = () => {
+
+  useEffect(()=>{
+    document.title =  "Let's Trip - Destinations";
+  },[]);
+
   return (
     <section
       data-bs-version="5.1"

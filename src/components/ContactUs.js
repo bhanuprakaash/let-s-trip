@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 
 const ContactUs = () => {
   const [formData, setFormData] = useState({
@@ -9,6 +9,10 @@ const ContactUs = () => {
   });
 
   const [formStatus, setFormStatus] = useState(null);
+
+  useEffect(()=>{
+    document.title="Let's Trip - Contact Us";
+  },[]);
 
   const handleChange = (e) => {
     const { name, value } = e.target;

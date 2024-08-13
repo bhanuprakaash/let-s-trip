@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import TripTimeLine from "./TripTimeLine";
 import BudgetEstimator from "./BudgetEstimator";
 import TripForm from "./TripForm";
@@ -19,6 +19,10 @@ const PlanTrip = () => {
   const [filteredTrains, setFilteredTrains] = useState([]);
   const [filteredAccommodations, setFilteredAccommodations] = useState([]);
   const [filteredBuses, setFilteredBuses] = useState([]);
+
+  useEffect(()=>{
+    document.title ="Let's Trip - Plan Trip";
+  },[]);
 
   const handleFormSubmit = (startLocation, endLocation, numberOfDays) => {
     setFormCompleted(true);

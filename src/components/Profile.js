@@ -1,8 +1,13 @@
-import React from "react";
+import React,{useEffect} from "react";
 import { FaInstagram, FaTwitter, FaFacebook } from "react-icons/fa";
 import { Link } from "react-router-dom";
 
 const Profile = () => {
+
+  useEffect(()=>{
+    document.title = "Let's Trip - Profile";
+  },[]);
+
   return (
     <section className="team2 cid-ukLgGMFYSR" id="team2-2p">
       <div className="container">

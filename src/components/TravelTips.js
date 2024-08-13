@@ -1,6 +1,11 @@
-import React from "react";
+import React,{useEffect} from "react";
 
 const TravelTips = () => {
+
+  useEffect(()=>{
+    document.title = "Let's Trip - Travel Tips";
+  },[]);
+
   return (
     <section
       data-bs-version="5.1"
